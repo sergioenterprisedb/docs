@@ -8,8 +8,8 @@ We support the major Postgres versions from the date they're made available unti
 
 |    Postgres distribution     |                      Versions                       |
 | ---------------------------- | --------------------------------------------------- |
-| PostgreSQL                   | 11–15                                               |
-| EDB Postgres Advanced Server | 11–15, 14-15 for distributed high-availability clusters |
+| PostgreSQL                   | 12–16                                               |
+| EDB Postgres Advanced Server | 12–15, 14-15 for distributed high-availability clusters |
 | EDB Postgres Extended Server | 14-15 for distributed high-availability clusters |
 
 ## End-of-life policy
@@ -33,7 +33,7 @@ BigAnimal will automatically upgrade your Postgres 11 instances to a later versi
 |                                                                                                                                                              Action or Recommendation                                                                                                                                                              |        Date         |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | BigAnimal no longer supports version 11.                                                                                                                                                                                                                                                                                                           | November 20, 2023   |
-| The PostgreSQL community plans to deprecate PostgreSQL 11 and won't provide any security patches after this date.                                                                                                                                                                                                                                  | November 9, 2023    |
+| The PostgreSQL community plans to deprecate PostgreSQL  and won't provide any security patches after this date.                                                                                                                                                                                                                                  | November 9, 2023    |
 | Start upgrading your BigAnimal instances to a later major version starting on this date. You can use pg_dump to restore your cluster into a later version.                                                                                    | now to May 20, 2023 |
 | You can't create a new instance with PostgreSQL major version 11 in the BigAnimal interfaces after this date.                                                                                                                                                                                                                                      | May 20, 2023        |
 | If you manually restore a cluster, you can't restore it with Postgres 11 after this date. You will need to restore that Postgres 11 cluster into a newer version of Postgres, for example, PostgreSQL version 15.                                                                                                                       | May 20, 2023        |
